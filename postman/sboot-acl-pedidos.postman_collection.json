@@ -1,0 +1,49 @@
+{
+  "info": {
+    "_postman_id": "8f1ab508-3443-49c1-8bd4-dfc34ba0f852",
+    "name": "sboot-acl-pedidos",
+    "description": "Collection de testes para o microsserviço sboot-acl-pedidos.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Receber Pedido (ACL)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "X-Idempotency-Key",
+            "value": "{{idempotency_key}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"clienteId\": \"CLI-998877\",\n  \"itens\": [\n    {\n      \"produtoId\": \"PROD-1001\",\n      \"quantidade\": 2\n    },\n    {\n      \"produtoId\": \"PROD-2004\",\n      \"quantidade\": 1\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/pedidos",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "pedidos"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

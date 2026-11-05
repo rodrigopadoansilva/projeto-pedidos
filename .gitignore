@@ -1,0 +1,11 @@
+*.tar
+*.zip
+**/docker/*.tar
+**/docker/*.zip*.tar
+*.zip
+**/target/
+**/docker/
+**/target/
+*.txt
+*.tar
+*.zip
