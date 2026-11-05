@@ -1,13 +1,13 @@
-package com.orch.pedidos;
+package br.com.atom.pedidos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrquestradorPedidosApplication {
+public class PagametoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrquestradorPedidosApplication.class, args);
+		SpringApplication.run(PagametoApplication.class, args);
 	}
 
 }

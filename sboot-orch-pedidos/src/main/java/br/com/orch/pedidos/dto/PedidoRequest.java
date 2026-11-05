@@ -1,4 +1,4 @@
-package com.orch.pedidos.dto;
+package br.com.orch.pedidos.dto;
 
 import java.util.List;
 

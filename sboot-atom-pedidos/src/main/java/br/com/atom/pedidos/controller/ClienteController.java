@@ -1,4 +1,4 @@
-package com.atom.pedidos.controller;
+package br.com.atom.pedidos.controller;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atom.pedidos.dto.ClienteRequest;
+import br.com.atom.pedidos.dto.ClienteRequest;
 
 
 @RestController

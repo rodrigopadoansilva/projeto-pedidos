@@ -1,4 +1,4 @@
-package com.acl.pedidos.controller;
+package br.com.acl.pedidos.controller;
 
 
 import org.springframework.http.HttpStatus;
@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.acl.pedidos.dto.PedidoInputDTO;
-
+import br.com.acl.pedidos.dto.PedidoInputDTO;
 import jakarta.validation.Valid;
 
 @RestController

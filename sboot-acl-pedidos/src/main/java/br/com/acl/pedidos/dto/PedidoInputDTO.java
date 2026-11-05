@@ -1,4 +1,4 @@
-package com.acl.pedidos.dto;
+package br.com.acl.pedidos.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

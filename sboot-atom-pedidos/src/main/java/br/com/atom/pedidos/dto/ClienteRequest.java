@@ -1,4 +1,4 @@
-package com.atom.pedidos.dto;
+package br.com.atom.pedidos.dto;
 
 import java.time.LocalDate;
 

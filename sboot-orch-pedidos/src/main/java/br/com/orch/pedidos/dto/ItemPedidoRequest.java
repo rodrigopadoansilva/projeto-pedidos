@@ -1,4 +1,4 @@
-package com.orch.pedidos.dto;
+package br.com.orch.pedidos.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

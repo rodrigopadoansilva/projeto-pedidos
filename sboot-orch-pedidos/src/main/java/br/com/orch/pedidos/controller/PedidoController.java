@@ -1,4 +1,4 @@
-package com.orch.pedidos.controller;
+package br.com.orch.pedidos.controller;
 
 import java.util.UUID;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.orch.pedidos.dto.PedidoRequest;
+import br.com.orch.pedidos.dto.PedidoRequest;
 
 @RestController
 @RequestMapping("/api/pedidos")
